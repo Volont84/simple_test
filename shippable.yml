@@ -1,0 +1,7 @@
+language: ruby
+
+services:
+  - docker
+
+build:
+  - docker build -t test/test .
