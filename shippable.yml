@@ -1,5 +1,5 @@
-services:
-  - docker
+language: java
 
-before_install:
-  - docker build -t test/test .
+build:
+  ci:
+   - docker build -t test/test .
