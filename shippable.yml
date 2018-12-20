@@ -1,7 +1,5 @@
-language: ruby
-
 services:
   - docker
 
-build:
+before_install:
   - docker build -t test/test .
